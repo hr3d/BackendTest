@@ -1,6 +1,6 @@
-package lesson5.api;
+package lesson6.api;
 
-import lesson5.dto.Product;
+import lesson6.dto.Product;
 import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.*;
@@ -20,7 +20,7 @@ public interface ProductController {
     Call<Product> getProductById(@Path("id") int id);
 
     @DELETE("products/{id}")
-    Call<ResponseBody> deleteProduct(@Path("id") int id);
+    Call<ResponseBody> deleteProduct(@Path("id") long id);
 
 
 
