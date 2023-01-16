@@ -17,7 +17,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
     "amount",
     "unit"
 })
-@Generated("jsonschema2pojo")
+//@Generated("jsonschema2pojo")
 public class Nutrient {
 
     @JsonProperty("name")
