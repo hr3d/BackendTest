@@ -31,7 +31,7 @@ public class RetrofitUtils {
     @SneakyThrows
     public String getBaseUrl() {
         prop.load(configFile);
-        return prop.getProperty("base_url_minimarket");
+        return prop.getProperty("base_url_minimarket2");
     }
 
 
